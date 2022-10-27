@@ -1,0 +1,20 @@
+.card-text{
+    color: rgba(0, 0, 0, 0.589);
+}
+.card-title{
+    font-weight: 600;
+}
+.card-btn{
+    background-color: white;
+    color: rgba(0, 140, 255, 0.877);
+    border: 2px solid rgba(0, 140, 255, 0.877);
+    border-radius: 8px;
+    font-weight: 500;
+}
+@media screen and (max-width:900px){
+    .card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
