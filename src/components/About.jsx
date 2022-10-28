@@ -10,7 +10,7 @@ const About = () => {
      path:"/contact"
     }
   return (
-    <div>
+    <div className='mt-5' >
       <Common title={info.title}  name={info.name} desc={info.desc} btnText={info.btnText} imgURL={de} path={info.path}/>
     </div>
   

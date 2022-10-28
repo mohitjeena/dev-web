@@ -10,7 +10,7 @@ const Home = () => {
      path:"/service"
     }
   return (
-    <div>
+    <div className='mt-5'>
       <Common title={info.title}  name={info.name} desc={info.desc} btnText={info.btnText} imgURL={tech} path={info.path}/>
     </div>
   )

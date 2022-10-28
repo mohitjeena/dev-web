@@ -20,7 +20,7 @@ function inputEvent(event){
   }
   return (
     <div className='contact-container'>
-    <h1>Contact Us</h1>
+    <h1 className='mt-5'>Contact Us</h1>
      <form action="">
     
      <label htmlFor="name">Full Name</label>

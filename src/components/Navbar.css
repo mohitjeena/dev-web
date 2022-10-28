@@ -1,6 +1,7 @@
 nav{
     padding: 5px 10px;
     
+    
 }
 .nav-container{
     position: fixed;  
@@ -8,6 +9,7 @@ nav{
     right: 0;
     left: 0;
     z-index: 5;
+   
 }
 .nav-link:after{
     content: "";

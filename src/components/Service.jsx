@@ -42,8 +42,8 @@ const Service = () => {
 }]
 
   return (
-    <div className='container mb-4 mt-5'>
-      <h1 className="mt-3" style={{textAlign:"center", color:"rgba(0, 0, 0, 0.600)"}}>Our Services</h1>
+    <div className='container ' style={{margin:"70px auto"}}>
+      <h1 className="mt-5" style={{textAlign:"center", color:"rgba(0, 0, 0, 0.600)",marginTop:"20px"}}>Our Services</h1>
        <div className="row">
         
         {arr.map((item)=>{

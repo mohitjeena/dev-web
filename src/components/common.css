@@ -52,6 +52,8 @@
     padding: 20px 30px;
 
 }
+.common-container{
+}
 .img-container img{
     animation: animate 2s ease-in-out infinite alternate-reverse both ;
     width: 640px;
@@ -78,12 +80,13 @@
 }
 .common-container{
     display: flex;
+ 
 
 }
 @media screen and (max-width:400px){
     .img-container img{
         width: 250px;
-        height: 250px;
+        height: 240px;
     }
 
  

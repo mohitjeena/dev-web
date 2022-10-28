@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 import "./common.css"
 const Common = (props) => {
   return (
-    <div className='container-lg container-fluid ' >
+    <div className='container-lg container-fluid' >
       <div className="row common-container">
         <div className="col-md-6 col-12 text-container">
             <h1>{props.title} </h1>

@@ -5,9 +5,9 @@ import imgurl from "../images/developer.png"
 const NewCard = ({item}) => {
   return (
    
-    <div className='col-12 col-md-6 col-lg-4 card-container'>
+    <div className='col-12 col-md-6 col-lg-4 card-container mt-2'>
     
-<div className="card mt-4 m-4" style={{width:"26rem"}} >
+<div className="card mt-2 m-4">
   <img src={item.imgURL} className="card-img-top" alt="..." height="260px"/>
   <div className="card-body">
     <h5 className="card-title">{item.title}</h5>

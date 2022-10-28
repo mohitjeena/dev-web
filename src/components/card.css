@@ -4,6 +4,7 @@
 .card-title{
     font-weight: 600;
 }
+
 .card-btn{
     background-color: white;
     color: rgba(0, 140, 255, 0.877);
@@ -11,10 +12,21 @@
     border-radius: 8px;
     font-weight: 500;
 }
+@media screen and (min-width: 1400px){
+    .card{
+        width: 26rem;
+    }
+}
 @media screen and (max-width:900px){
     .card-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    .card{
+        width: 20rem;
     }
 }
