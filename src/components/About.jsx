@@ -7,7 +7,7 @@ const About = () => {
          name:"Mohit Technical",
           desc:"We are team of talented developer making websites",
      btnText:"Contact Here",
-     path:"/contact"
+     path:"/dev-web/contact"
     }
   return (
     <div className='mt-5' >

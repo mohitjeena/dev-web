@@ -7,13 +7,14 @@ const Home = () => {
          name:"Mohit Technical",
           desc:"We are team of talented developer making websites",
      btnText:"Get Started",
-     path:"/service"
+     path:"/dev-web/service"
     }
   return (
     <div className='mt-5'>
       <Common title={info.title}  name={info.name} desc={info.desc} btnText={info.btnText} imgURL={tech} path={info.path}/>
     </div>
   )
+  
 }
 
 export default Home

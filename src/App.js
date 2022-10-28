@@ -13,10 +13,10 @@ function App() {
     <Router>
  <Navbar />
  <Routes>
-  <Route path='/' element={<Home />}/>
-  <Route path='/service' element={<Service />}/>
-  <Route path='/about' element={<About />}/>
-  <Route path='/contact' element={<Contact />}/>
+  <Route path='/dev-web' element={<Home />}/>
+  <Route path='/dev-web/service' element={<Service />}/>
+  <Route path='/dev-web/about' element={<About />}/>
+  <Route path='/dev-web/contact' element={<Contact />}/>
  </Routes>
  <Footer />
  </Router>

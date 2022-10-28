@@ -14,20 +14,20 @@ const Navbar = () => {
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
    
-        <Link to="/" style={{textDecoration:"none"}}>
+        <Link to="/dev-web" style={{textDecoration:"none"}}>
           <a className="nav-link active me-2" aria-current="page" href="#">Home</a>
           </Link>
         </li>
         <li className="nav-item">
-        <Link to="/service" style={{textDecoration:"none"}}>
+        <Link to="/dev-web/service" style={{textDecoration:"none"}}>
           <a className="nav-link active me-2" aria-current="page" href="#">Service</a></Link>
         </li>
         <li className="nav-item">
-        <Link to="/about" style={{textDecoration:"none"}}>
+        <Link to="/dev-web/about" style={{textDecoration:"none"}}>
           <a className="nav-link active me-2" aria-current="page" href="#">About</a></Link>
         </li>
         <li className="nav-item">
-        <Link to="/contact" style={{textDecoration:"none"}}>
+        <Link to="/dev-web/contact" style={{textDecoration:"none"}}>
           <a className="nav-link active me-2" aria-current="page" href="#">Contact</a></Link>
         </li>
     
